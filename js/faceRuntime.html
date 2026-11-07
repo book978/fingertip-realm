@@ -1,0 +1,8 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>本地面部识别运行环境</title>
+<script type="module">
+import {FaceLandmarker,FilesetResolver} from '../vendor/mediapipe/vision_bundle.mjs';
+globalThis.createFaceLandmarker=async()=>{
+ const vision=await FilesetResolver.forVisionTasks(new URL('../vendor/mediapipe/wasm',import.meta.url).href);
+ return FaceLandmarker.createFromOptions(vision,{baseOptions:{modelAssetPath:new URL('../assets/models/face_landmarker.task',import.meta.url).href,delegate:'CPU'},runningMode:'VIDEO',numFaces:1,minFaceDetectionConfidence:.6,minFacePresenceConfidence:.6,minTrackingConfidence:.6,outputFacialTransformationMatrixes:true});
+};
+</script></html>

@@ -1,0 +1,6 @@
+/* This layer never participates in page layout or receives pointer input. */
+#relic-particle-layer{position:fixed;inset:0;width:100vw;height:100vh;display:block;pointer-events:none;z-index:1}
+.immersive-particle-settings{margin-top:24px;padding-top:18px;border-top:1px solid var(--line)}
+.immersive-particle-settings label{display:flex;justify-content:space-between;align-items:center;gap:16px;font-size:13px;color:var(--ink)}
+.immersive-particle-settings select{max-width:200px;background:#142a20;border:1px solid #a7a07866;color:#d5cfad;font:12px var(--sans);padding:8px}
+.immersive-particle-settings p{font-size:11px;line-height:1.8;color:var(--muted);margin:12px 0 0}

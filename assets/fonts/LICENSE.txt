@@ -1,0 +1,13 @@
+SIL OPEN FONT LICENSE
+Version 1.1 - 26 February 2007
+
+本目录下的 woff2 字体文件为 Noto Serif SC 的子集，用于《指尖造境》网页渲染。
+
+Source: Noto Serif SC (Google Fonts / notofonts/noto-cjk)
+License: SIL Open Font License, Version 1.1
+License text: https://openfontlicense.org
+
+子集化工具：tools/subset_fonts.py (fontTools)
+
+Copyright 2022 The Noto Project Authors
+https://github.com/notofonts/noto-cjk

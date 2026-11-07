@@ -1,0 +1,98 @@
+{
+  "revision": "voice-20261023",
+  "voice": "zh-CN-YunyangNeural",
+  "rate": "-12%",
+  "pitch": "-4Hz",
+  "generator": "edge-tts as recorded in the creator-supplied generation script",
+  "processing": "Creator-supplied final WAV masters; EQ, short reverb, compression and loudness normalization already baked in. No extra encoding or effects added on import.",
+  "trigger": "Fourth act only, after the visitor explicitly starts the three-turn dialogue. Choices appear on the actual media ended event.",
+  "source_note": "Uses the standard seven-line delivery. The immersive opening variant and concatenated demo are not production dialogue sources.",
+  "license_status": "Creator supplied; separate redistribution permission was not attached. Use remains subject to applicable voice/service terms.",
+  "backup": "开发备份/配音替换前-20261023-01",
+  "lines": [
+    {
+      "key": "opening",
+      "source_master": "work/01_final.wav",
+      "source_delivery": "01_开场.mp3",
+      "file": "dialogue-opening.wav",
+      "seconds": 9.52,
+      "format": "PCM signed 16-bit little endian",
+      "sample_rate": 48000,
+      "channels": 2,
+      "text": "远道而来的朋友，你好。你停在这里，是想知道我的名字，还是想听听青铜留下的故事？",
+      "sha256": "aa6fcb9f1489e2ae93f21e24be675e9f41fb5c4436ad10c3ed446540f37690b4"
+    },
+    {
+      "key": "identity",
+      "source_master": "work/02_final.wav",
+      "source_delivery": "02_我是谁_青铜大立人.mp3",
+      "file": "dialogue-identity.wav",
+      "seconds": 12.884,
+      "format": "PCM signed 16-bit little endian",
+      "sample_rate": 48000,
+      "channels": 2,
+      "text": "人们称我为青铜大立人。至于我曾是谁，仍藏在未解的历史里。你觉得，一件文物最值得留下的是什么？",
+      "sha256": "7b1d0443a0a7e559a5a26424cf8c7d9185a84ae716562465fda57f5254b55be0"
+    },
+    {
+      "key": "story",
+      "source_master": "work/03_final.wav",
+      "source_delivery": "03_我的故事.mp3",
+      "file": "dialogue-story.wav",
+      "seconds": 11.032,
+      "format": "PCM signed 16-bit little endian",
+      "sample_rate": 48000,
+      "channels": 2,
+      "text": "我的故事，留在衣上的纹路、弯曲的双臂，还有那些未解的疑问里。你觉得，一件文物最值得留下的是什么？",
+      "sha256": "ef6107021e9ae36f6620485234653a8c73ff776ad029ad5f1d30a9d3f8f8dfdf"
+    },
+    {
+      "key": "memory",
+      "source_master": "work/04_final.wav",
+      "source_delivery": "04_真实岁月.mp3",
+      "file": "dialogue-memory.wav",
+      "seconds": 10.816,
+      "format": "PCM signed 16-bit little endian",
+      "sample_rate": 48000,
+      "channels": 2,
+      "text": "岁月让青铜改变了颜色，也把曾经的生活留给后来的人。离开这里后，你愿意怎样延续这次相遇？",
+      "sha256": "477febc91d8c9798e30234771cbac79def6b6f3d2fca52cbcb08522c8de3a7dc"
+    },
+    {
+      "key": "imagination",
+      "source_master": "work/05_final.wav",
+      "source_delivery": "05_想象相连.mp3",
+      "file": "dialogue-imagination.wav",
+      "seconds": 12.304,
+      "format": "PCM signed 16-bit little endian",
+      "sample_rate": 48000,
+      "channels": 2,
+      "text": "想象让遥远的历史与今天相连，而真实的遗存，是想象扎根的地方。离开这里后，你愿意怎样延续这次相遇？",
+      "sha256": "465055c356368f4cbb5f3fcfaa0119d0068e87d98b4abae608784fafdbfc7ac1"
+    },
+    {
+      "key": "learn",
+      "source_master": "work/06_final.wav",
+      "source_delivery": "06_告别_带着好奇前行.mp3",
+      "file": "dialogue-learn.wav",
+      "seconds": 12.596,
+      "format": "PCM signed 16-bit little endian",
+      "sample_rate": 48000,
+      "channels": 2,
+      "text": "那就带着好奇继续前行吧。还没有答案的问题，也值得被认真记住。谢谢你，听见来自青铜的一次回声。",
+      "sha256": "636914e49820b11d98cf3a8b9c2256e68fda28e82eb306a3e9e5329fe7ed2d8c"
+    },
+    {
+      "key": "create",
+      "source_master": "work/07_final.wav",
+      "source_delivery": "07_告别_在创作里生长.mp3",
+      "file": "dialogue-create.wav",
+      "seconds": 13.364,
+      "format": "PCM signed 16-bit little endian",
+      "sample_rate": 48000,
+      "channels": 2,
+      "text": "那就让这次相遇，在你的创作里继续生长吧。愿每一次新的表达，都记得回望真实的历史。谢谢你，远道而来的朋友。",
+      "sha256": "666ed35ad00cbd2333f330cd4cee0e863141a2176249dfe593aa6c84ace62005"
+    }
+  ]
+}

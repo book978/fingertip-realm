@@ -1,0 +1,1 @@
+export function createFrameClock(){let prior=null;return {reset(){prior=null;},step(now){const elapsedSec=prior===null?0:Math.max(0,(now-prior)/1000);prior=now;return {elapsedSec,renderSec:Math.min(elapsedSec,.05)};}};}

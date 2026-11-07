@@ -1,0 +1,34 @@
+MIT License
+
+Copyright (c) 2026 panhathai (ppongtong) — 原开源项目 gesture-particle
+Copyright (c) 2026 指尖造境 / Realm at Fingertips
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+--------------------------------------------------------------------------------
+
+本项目基于开源项目 ppongtong/gesture-particle（MIT License）开发。
+原项目的完整代码保留在仓库 upstream/ 目录中，其版权声明与许可条款不受影响。
+手势识别、粒子物理与形态生成的核心算法继承自原项目，并附有代码级溯源注释。
+
+This project is derived from the open-source project ppongtong/gesture-particle
+(MIT License). The complete original source code is preserved in the upstream/
+directory of this repository. The core algorithms for gesture recognition,
+particle physics, and formation generation are inherited from the original
+project, with code-level provenance annotations.
